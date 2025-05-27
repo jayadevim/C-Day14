@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int l,w,area,circum;
+    scanf("%d %d",&l,&w);
+    area=l*w;
+    circum = 2*l+2*w;
+    
+    printf("%d %d",area,circum);
+
+    return 0;
+}
