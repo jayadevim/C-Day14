@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int amount, rate, year;
+    float intrest, total, final, discount;
+    
+    scanf("%d %d %d",&amount, &rate, &year);
+    
+    intrest = (amount * rate * year) / 100.0;
+    total = amount + intrest;
+    discount = amount*0.02;
+    final = total - discount;
+    printf("%.2f %.2f %.2f %.2f",intrest,total,discount,final);
+    return 0;
+}
+
+
