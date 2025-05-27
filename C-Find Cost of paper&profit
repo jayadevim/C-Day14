@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int w,x,y,beforeprofit,afterprofit,storage;
+    
+    scanf("%d %d %d",&w,&x,&y);
+    
+    beforeprofit=w*x;
+    afterprofit=beforeprofit-y*w;
+    storage=afterprofit-100;
+    printf("%d",storage);
+
+    return 0;
+}
