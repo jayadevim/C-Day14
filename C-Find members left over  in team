@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int student,team,members,left;
+    scanf("%d %d",&student,&team);
+    members = student/team;
+    left =student%team;
+    
+    printf("%d %d",members,left);
+
+    return 0;
+}
